@@ -5,7 +5,7 @@ import TweetButton from '../TweetButton/TweetButton';
 
 const SideBar = () => {
   return (
-    <div className="sidebar fc">
+    <div className="sidebar">
       <Logo/> 
       <NavBar/>    
       <TweetButton/>

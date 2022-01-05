@@ -4,7 +4,8 @@ import Tweet from './Tweet'
 const TweetList = ({ tweets }) => { 
         const tweetList = tweets.map((user,i) => {
             return (
-                <Tweet 
+                <Tweet
+                    key = {i} 
                     name={tweets[i].name} 
                     username={tweets[i].username} 
                     content={tweets[i].content}
